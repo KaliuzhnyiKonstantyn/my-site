@@ -5,19 +5,19 @@ body {
     box-shadow: inset 0 0 0 50vmax rgb(0 0 0 / 40%);
 }
 
-ul {
+.header-list {
     display: flex;
     justify-content: flex-end;
     gap: 50px;
     padding: 35px 35px 0 0;
 }
 
-a {
+.header-link {
     font-family: 'Bebas Neue';
     color: white;
 }
 
-a:hover {
+.header-link:hover {
     color: #3C82F4;
     transition: all 0.3s linear;
 }
@@ -68,6 +68,16 @@ button:hover {
     color: #fff;
     background: #3C82F4;
     transition: all .3s linear;
+}
+
+a {
+    font-family: 'Bebas Neue';
+    color: white;
+}
+
+a:hover {
+    color: #3C82F4;
+    transition: all 0.3s linear;
 }
 
 .footer-wrapper {
